@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="template">
+	<depends>
+		<moduleName>tools</moduleName>
+	</depends>
+	<externs>
+	</externs>
+	<sources>
+		<fileName>template_data.js</fileName>
+		<fileName>template_page.js</fileName>
+		<fileName>template_request.js</fileName>
+		<fileName>template_requestTypeEnums.js</fileName>
+		<fileName>template_xmlparser.js</fileName>
+	</sources>
+</module>

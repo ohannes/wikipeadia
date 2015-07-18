@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="wikipedia">
+	<depends>
+		<moduleName>tools</moduleName>
+	</depends>
+	<externs>
+	</externs>
+	<sources>
+		<fileName>wikipedia_data.js</fileName>
+		<fileName>wikipedia_page.js</fileName>
+		<fileName>wikipedia_request.js</fileName>
+		<fileName>wikipedia_requestTypeEnums.js</fileName>
+		<fileName>wikipedia_xmlparser.js</fileName>
+		<fileName>wikipedia_scrollBarController.js</fileName>
+	</sources>
+</module>

@@ -1,0 +1,4 @@
+<project name="template">
+    <dirname property="build.dir" file="build.xml"/>
+    <import file="${root}/common.xml"/>
+</project>

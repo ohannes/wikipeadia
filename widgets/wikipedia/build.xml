@@ -1,0 +1,4 @@
+<project name="wikipedia">
+    <dirname property="build.dir" file="build.xml"/>
+    <import file="${root}/common.xml"/>
+</project>

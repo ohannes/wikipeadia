@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Path Shall be relative to compiler.jar file -->
+<dependency libraryPath="libraries">
+    <module name="api.wikipedia.*"/>
+    <module name="tools.*"/>
+    <module name="graphic.*"/>
+    <module name="external.*"/>
+</dependency>

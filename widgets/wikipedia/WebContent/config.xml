@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns       = "http://www.w3.org/ns/widgets" 
+        id          = "http://example.org/exampleWidget" 
+        version     = "00.02.01"
+		height      = "768"
+        width       = "1366"
+        viewmodes = "application fullscreen">
+
+  <name short="wikipedia">
+        wikipedia
+  </name>
+
+<!--
+  <feature name="http://example.com/camera">
+    <param name="autofocus" value="true"/>
+  </feature>
+
+  <preference name     ="apikey" 
+              value    ="ea31ad3a23fd2f"
+              readonly ="true" />
+-->
+  <preference name     ="readOnly" 
+              value    ="false"
+              readonly ="true" />
+
+  <description>
+    wikipedia
+  </description>
+  <author href="http://www.arcelik.com.tr"
+    email="authorName.authorSurname@arcelik.com">Arcelik Electronics Plant</author>
+
+  <icon src="icons/icon.png"/>
+
+  <content src="index.html"/>
+
+  <license>
+
+Example license (based on MIT License)
+Copyright (c) 2011 The Arcelik Electronics Plant.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+
+  </license>
+</widget>
